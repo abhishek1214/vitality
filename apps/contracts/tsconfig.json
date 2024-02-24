@@ -1,0 +1,9 @@
+{
+  "extends": "@vitality/tsconfig/contract.json",
+  "compilerOptions": {
+    "tsBuildInfoFile": "node_modules/.cache/tsbuildinfo.json"
+  },
+  "include": ["scripts", "test"],
+  "exclude": ["node_modules"],
+  "files": ["./hardhat.config.ts"]
+}

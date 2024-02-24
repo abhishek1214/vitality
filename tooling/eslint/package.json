@@ -7,7 +7,8 @@
     "./base.js",
     "./nextjs.js",
     "./react.js",
-    "./svelte.js"
+    "./svelte.js",
+    "./contracts.js"
   ],
   "scripts": {
     "clean": "rm -rf .turbo node_modules",

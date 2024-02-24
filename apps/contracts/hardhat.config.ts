@@ -1,0 +1,9 @@
+import { HardhatUserConfig } from "hardhat/types";
+
+import "@nomicfoundation/hardhat-toolbox-viem";
+
+const config: HardhatUserConfig = {
+  solidity: "0.8.24",
+};
+
+export default config;
